@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "airbnb",
+    "prettier"
+  ],
+
+  "plugins": ["prettier", "react", "react-hooks"],
+
+  "rules": {
+    "no-unused-vars": "warn",
+    "react/react-in-jsx-scope": "off"
+  }
+}
