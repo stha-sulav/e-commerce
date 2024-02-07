@@ -3,7 +3,7 @@ import { Product } from "./types/products";
 export const sampleProducts: Product[] = [
   {
     name: "t-shirt",
-    slug: "t-shirt",
+    slug: "t-shirt-1",
     image:
       "https://images.pexels.com/photos/991509/pexels-photo-991509.jpeg?auto=compress&cs=tinysrgb&w=600",
     category: "n/a",
@@ -16,7 +16,7 @@ export const sampleProducts: Product[] = [
   },
   {
     name: "t-shirt",
-    slug: "t-shirt",
+    slug: "t-shirt-2",
     image:
       "https://images.pexels.com/photos/1566412/pexels-photo-1566412.jpeg?auto=compress&cs=tinysrgb&w=600",
     category: "n/a",
@@ -29,7 +29,7 @@ export const sampleProducts: Product[] = [
   },
   {
     name: "t-shirt",
-    slug: "t-shirt",
+    slug: "t-shirt-3",
     image:
       "https://images.pexels.com/photos/1484807/pexels-photo-1484807.jpeg?auto=compress&cs=tinysrgb&w=600",
     category: "n/a",
@@ -42,7 +42,7 @@ export const sampleProducts: Product[] = [
   },
   {
     name: "t-shirt",
-    slug: "t-shirt",
+    slug: "t-shirt-4",
     image:
       "https://images.pexels.com/photos/1261422/pexels-photo-1261422.jpeg?auto=compress&cs=tinysrgb&w=600",
     category: "n/a",

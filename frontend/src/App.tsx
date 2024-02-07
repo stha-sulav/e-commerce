@@ -1,16 +1,11 @@
-import { sampleProducts } from "./data";
+import { Outlet } from "react-router-dom";
 
 const App = () => {
   return (
     <div className="d-flex flex-col h-screen">
       <header>E-commerce</header>
       <main>
-        {sampleProducts.map((product) => (
-          <div>
-            <img src={product.image} alt={product.name} />
-            <p>{product.name}</p>
-          </div>
-        ))}
+        <Outlet />
       </main>
       <footer>All rights reserved</footer>
     </div>

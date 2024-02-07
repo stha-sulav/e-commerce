@@ -8,9 +8,16 @@ import {
   RouterProvider,
   Route,
 } from "react-router-dom";
+import Product from "./pages/Product.tsx";
+import Home from "./pages/Home.tsx";
 
 const router = createBrowserRouter(
-  createRoutesFromElements(<Route path="/" element={<App />} />)
+  createRoutesFromElements(
+    <Route path="/" element={<App />}>
+      <Route index={true} element={<Home />} />
+      <Route path="/product/:slug" element={<Product />} />
+    </Route>
+  )
 );
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
